@@ -1,0 +1,25 @@
+[
+  {"image": "food_1.jpeg", "category": "food", "caption": "A stack of pancakes with blueberries and caramel syrup on a dark plate on a wooden table."},
+  {"image": "food_2.jpeg", "category": "food", "caption": "A slice of pistachio cake with cream layers and fresh raspberries on top, on a black plate."},
+  {"image": "food_3.jpeg", "category": "food", "caption": "A green salad with lettuce, olives, walnuts, cheese cubes and red onion, next to a glass of orange juice and a fork."},
+  {"image": "food_4.jpeg", "category": "food", "caption": "A white plate of spiced rice with vegetables, cashews and a lime slice, next to a small yogurt bowl."},
+  {"image": "food_5.jpeg", "category": "food", "caption": "A white burrata cheese with green peas, broad beans, hazelnuts, olive oil and a mint leaf."},
+
+  {"image": "korea_1.jpeg", "category": "korea", "caption": "A narrow street with traditional hanok houses and tiled roofs, with a tower in the background under a blue sky."},
+  {"image": "korea_2.jpeg", "category": "korea", "caption": "Four women in colourful hanbok walking down a palace corridor with red columns."},
+  {"image": "korea_3.jpeg", "category": "korea", "caption": "A city skyline at night, full of lights, with a tower on a hill."},
+  {"image": "korea_4.jpeg", "category": "korea", "caption": "A busy street at night with bright neon signs in Korean letters and people walking."},
+  {"image": "korea_5.jpeg", "category": "korea", "caption": "A long suspension bridge at sunset, with the city's skyscrapers and the sea behind it."},
+
+  {"image": "music_1.jpeg", "category": "music", "caption": "A wooden acoustic guitar leaning against a black cabinet."},
+  {"image": "music_2.jpeg", "category": "music", "caption": "An electronic keyboard with a microphone and headphones in a recording studio."},
+  {"image": "music_3.jpeg", "category": "music", "caption": "A red drum kit with cymbals on a dark stage."},
+  {"image": "music_4.jpeg", "category": "music", "caption": "A man playing the violin on the street, outdoors, on a sunny day."},
+  {"image": "music_5.jpeg", "category": "music", "caption": "A person playing a golden saxophone with their hands, in front of a green background."},
+
+  {"image": "sport_1.jpeg", "category": "sport", "caption": "A tennis player in white hitting the ball with his racket on a green court, with his shadow on the ground."},
+  {"image": "sport_2.jpeg", "category": "sport", "caption": "A cyclist with a white helmet riding a fast orange road bike."},
+  {"image": "sport_3.jpeg", "category": "sport", "caption": "A swimmer doing the butterfly stroke in a pool, splashing water."},
+  {"image": "sport_4.jpeg", "category": "sport", "caption": "A person lifting a barbell with heavy weights on a gym floor."},
+  {"image": "sport_5.jpeg", "category": "sport", "caption": "A basketball player jumping high to do a dunk at the hoop in a dark gym."}
+]
