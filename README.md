@@ -95,6 +95,11 @@ src/
 - Los embeddings de imagen se calculan **una sola vez**: al arrancar se reutilizan para todas las consultas y
   además se guardan en `data/clip_image_embeddings.npz`; en ejecuciones siguientes se cargan de ahí
   (la caché se invalida si cambian las imágenes del dataset).
+- **Extra: búsqueda por imagen.** `:img FOTO` devuelve las imágenes más parecidas a una foto, ya sea del dataset
+  (`:img korea_2.jpeg`, que se excluye a sí misma y reutiliza su embedding de la caché) o una foto nueva guardada en
+  `data/queries/` (se calcula su embedding con CLIP). Justificación: a veces es más fácil enseñar un ejemplo que
+  describirlo con palabras ("busca fotos como esta"), y demuestra que texto e imagen comparten el mismo espacio:
+  ambas búsquedas usan los mismos embeddings de imagen precalculados.
 - Limitación: siempre devuelve k resultados aunque no haya ninguno relevante (p. ej. "a cat" da puntuaciones
   bajas, ~0.20, y casi empatadas).
 
